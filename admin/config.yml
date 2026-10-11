@@ -21,28 +21,6 @@ collections:
           - { label: "LinkedIn URL", name: "linkedin", widget: "string" }
           - { label: "Behance URL", name: "behance", widget: "string" }
           - { label: "About / Objective", name: "objective", widget: "text" }
-          
-          - label: "Professional Skills"
-            name: "skills"
-            widget: "list"
-            field: { label: "Skill Name", name: "skill", widget: "string" }
-
-          - label: "Work Experience"
-            name: "experience"
-            widget: "list"
-            fields:
-              - { label: "Year", name: "year", widget: "string" }
-              - { label: "Company", name: "company", widget: "string" }
-              - { label: "Role", name: "role", widget: "string" }
-              - { label: "Description", name: "description", widget: "text" }
-
-          - label: "Education & Qualifications"
-            name: "education"
-            widget: "list"
-            fields:
-              - { label: "Year", name: "year", widget: "string" }
-              - { label: "Degree / Course", name: "title", widget: "string" }
-              - { label: "Institution", name: "institution", widget: "string" }
 
   - name: "projects"
     label: "Portfolio Projects"

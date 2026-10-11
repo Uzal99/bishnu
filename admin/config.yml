@@ -1,7 +1,9 @@
 backend:
   name: github
-  repo: Uzal99/bishnu # Your GitHub repository
+  repo: Uzal99/bishnu
   branch: main
+  base_url: https://decap-bridge.vercel.app
+  auth_endpoint: /api/auth
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"

@@ -1,12 +1,12 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: Uzal99/bishnu # Your GitHub username/repo
   branch: main
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
 collections:
-  # General Profile & Resume Data
   - name: "profile"
     label: "Profile & Info"
     files:
@@ -44,7 +44,6 @@ collections:
               - { label: "Degree / Course", name: "title", widget: "string" }
               - { label: "Institution", name: "institution", widget: "string" }
 
-  # Dynamic Projects Collection
   - name: "projects"
     label: "Portfolio Projects"
     folder: "content/projects"
